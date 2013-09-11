@@ -1,0 +1,27 @@
+{
+  "name": "hanser book loader",
+  "version": "0.0.1",
+  "description": "Download pdf files from hanser-elibrary.com",
+  "homepage": "http://alboh.de",
+  "author": "Daniel Gräber <info@alboh.de> (http://twitter.com/albohlabs)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gorekee/hanser-book-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gorekee/hanser-book-loader/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/gorekee/hanser-book-loader/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "request": "~2.27.0",
+    "commander": "~1.2.0",
+    "jsdom": "~0.8.4",
+    "async": "~0.2.9"
+  }
+}
